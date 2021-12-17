@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <section id="container">
+            <section id="content">
+                <h1>Título</h1>
+                <p>Parágrafo</p>
+            </section>
+            <input oninput="titulo()" id="h1" type="text" placeholder="Título" required>
+            <textarea oninput="paragrafo()" id="paragrafo" type="text" placeholder="Parágrafo"></textarea>
+            <section id="botoes">
+                <button class="btn" onclick="red()">Red</button>
+                <button class="btn" onclick="green()">Green</button>
+                <button class="btn" onclick="blue()">Blue</button>
+                <button class="btn" onclick="yellow()">Yellow</button>
+                <button class="btn" onclick="pink()">Pink</button>
+                <button class="btn" onclick="black()">Black</button>
+            </section>
+        </section>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
