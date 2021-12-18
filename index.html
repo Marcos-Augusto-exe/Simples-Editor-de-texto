@@ -14,18 +14,24 @@
     <div>
         <section id="container">
             <section id="content">
-                <h1>Título</h1>
-                <p>Parágrafo</p>
+                <h1>Title</h1>
+                <p>Paragraph</p>
             </section>
-            <input oninput="titulo()" id="h1" type="text" placeholder="Título" required>
-            <textarea oninput="paragrafo()" id="paragrafo" type="text" placeholder="Parágrafo"></textarea>
+            <input oninput="titulo()" id="h1" type="text" placeholder="Title" required>
+            <textarea oninput="paragrafo()" id="paragrafo" type="text" placeholder="Paragraph"></textarea>
+            
             <section id="botoes">
-                <button class="btn" onclick="red()">Red</button>
-                <button class="btn" onclick="green()">Green</button>
-                <button class="btn" onclick="blue()">Blue</button>
-                <button class="btn" onclick="yellow()">Yellow</button>
-                <button class="btn" onclick="pink()">Pink</button>
-                <button class="btn" onclick="black()">Black</button>
+                <button class="btn" onclick="muda_cor(this)">Red</button>
+                <button class="btn" onclick="muda_cor(this)">Green</button>
+                <button class="btn" onclick="muda_cor(this)">Blue</button>
+                <button class="btn" onclick="muda_cor(this)">Yellow</button>
+                <button class="btn" onclick="muda_cor(this)">Pink</button>
+                <button class="btn" onclick="muda_cor(this)">Black</button>
+
+                <button class="btn2" onclick="texto(this)">Left</button>
+                <button class="btn2" onclick="texto(this)">Center</button>
+                <button class="btn2" onclick="texto(this)">Right</button>
+
             </section>
         </section>
     </div>

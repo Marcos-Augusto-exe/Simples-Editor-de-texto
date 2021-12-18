@@ -27,14 +27,21 @@ div{
     height: 300px;
     max-width: 500px;
 }
+h1{
+  font-size: 30px;  
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
-h1,p{
-   
+p{
+   font-size: 25px;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
 }
 #h1{
+    font-size: 25px;
     padding: 4px;
     border: none;
     border-bottom: solid 1px;
@@ -43,6 +50,7 @@ h1,p{
     margin-bottom: 10px;
 }
 #paragrafo{ 
+    font-size: 25px;
     padding: 10px;
     border: none; 
     border-bottom: solid 1px;
@@ -54,11 +62,19 @@ h1,p{
     padding-left: 50px;
     padding-right: 50px;
     text-align: center;
-    float: left;
+    float: r;
 }
 .btn{ 
     margin: auto;
-    margin-top: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+.btn2{ 
+    margin: auto;
+    margin-top: 20px;
     margin-bottom: 10px;
     width: 100px;
     height: 30px;
