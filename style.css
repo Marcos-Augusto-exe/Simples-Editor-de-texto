@@ -1,82 +1,80 @@
-*{
-    padding: 0;
-    margin: 0;
-    
+* {
+  padding: 0;
+  margin: 0;
 }
 
-div{
-   background-color: cadetblue;
-    max-width: 500px;
-    margin: auto;
-    margin-top: 20px;
-    border: solid 1px black;
-    border-radius: 10px;
-
-    
-    
+div {
+  background-color: cadetblue;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 20px;
+  border: solid 1px black;
+  border-radius: 10px;
 }
 
-#container{
-     
-     display: flex;flex-direction: column;
+#container {
+  display: flex;
+  flex-direction: column;
 }
-#content{
-    overflow-y: auto;
-    overflow-wrap: break-word;
-    margin-bottom: 20px;
-    height: 300px;
-    max-width: 500px;
+#content {
+  overflow-y: auto;
+  overflow-wrap: break-word;
+  margin-bottom: 20px;
+  height: 300px;
+  max-width: 500px;
 }
-h1{
-  font-size: 30px;  
+h1 {
+  font-size: 30px;
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
 }
 
-p{
-   font-size: 25px;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+p {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
-#h1{
-    font-size: 25px;
-    padding: 4px;
-    border: none;
-    border-bottom: solid 1px;
-    height: 30px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+#h1 {
+  font-size: 25px;
+  padding: 4px;
+  border: none;
+  border-bottom: solid 1px;
+  height: 30px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
-#paragrafo{ 
-    font-size: 25px;
-    padding: 10px;
-    border: none; 
-    border-bottom: solid 1px;
-    margin-bottom:10px ;
-    height: 60px;
-    border-radius: 10px;
+#paragrafo {
+  font-size: 25px;
+  padding: 10px;
+  border: none;
+  border-bottom: solid 1px;
+  margin-bottom: 10px;
+  height: 60px;
+  border-radius: 10px;
 }
-#botoes{
-    padding-left: 50px;
-    padding-right: 50px;
-    text-align: center;
-    float: r;
+#botoes {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
 }
-.btn{ 
-    margin: auto;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    width: 100px;
-    height: 30px;
-    border-radius: 10px;
+.btn {
+  margin: auto;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
 }
-.btn2{ 
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    width: 100px;
-    height: 30px;
-    border-radius: 10px;
+.btn2 {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+}
+.btn:hover {
+  color: white;
 }

@@ -16,9 +16,19 @@ function paragrafo(){
 function muda_cor(botao){
     h1.style.color = botao.innerHTML;
     p1.style.color = botao.innerHTML;
+    
+    
 }
 
 function texto(botao){
     h1.style.textAlign = botao.innerHTML;
     p1.style.textAlign = botao.innerHTML;
+}
+function onOver(botao1){
+    botao1.style.backgroundColor = botao1.innerHTML;
+
+}
+function onOut(botao1){
+    botao1.style.backgroundColor  = "rgb(239, 239, 239)";
+    
 }
